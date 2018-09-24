@@ -127,7 +127,7 @@ public class GraphDustbin extends AppCompatActivity {
     }
 
 
-    public void fetchData(){
+    /*public void fetchData(){
         String lightApi = "https://api.thingspeak.com/channels/546817/feeds.json?results=2";
         JsonObjectRequest objectRequest =new JsonObjectRequest(Request.Method.GET, lightApi, null,
                 new Response.Listener<JSONObject>() {
@@ -151,7 +151,7 @@ public class GraphDustbin extends AppCompatActivity {
 
             }
         });
-    }
+    }*/
 
 
     @Override
