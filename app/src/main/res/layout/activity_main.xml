@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blur1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:background="@drawable/button_round"
+        android:gravity="center"
+        android:onClick="garbageColl"
+        android:text="Garbage Collector"
+        android:textSize="20dp"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:textSize="20dp"
+        android:background="@drawable/button_round"
+        android:onClick="societySecretary"
+        android:text="Society Secretary"
+        android:textColor="@color/white" />
+
+</LinearLayout>
